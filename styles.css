@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Stone100: hsl(30, 54%, 90%);
+    --Stone150: hsl(30, 18%, 87%);
+    --Stone600: hsl(30, 10%, 34%);
+    --Stone900: hsl(24, 5%, 18%);
+    --Brown800: hsl(14, 45%, 36%);
+    --Rose800: hsl(332, 51%, 32%);
+    --Rose50: hsl(330, 100%, 98%);
+    --Font-Size: 1rem;
+    --Weight400: 400;
+    --Weight600: 600;
+    --Weight700: 700;
+
+    --MobileScreen: 375px;
+}
+
+body {
+    background-color: var(--Rose50);
+    min-height: 100svh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin-inline: auto;
+    background-color: var(--White);
+    border: solid;
+}
+
+.omel-img {
+    height: 15rem;
+}
