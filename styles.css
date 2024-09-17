@@ -41,8 +41,8 @@ main {
     border-radius: 1rem;
 }
 
-main > * {
-    margin: .5rem;
+main > header, section {
+    margin: 1.5rem 0rem;
 }
 
 .omel-img {
@@ -54,6 +54,28 @@ section, header {
     width: 31rem;
 }
 
+header > p {
+    font-family: "Outfit";
+    color: var(--Stone600);
+    font-size: .7rem;
+}
+
 h1,h2 {
     font-family: "Young Serif";
 }
+
+.prep-section {
+    background-color: var(--Rose50);
+    padding: 1.5rem;
+    border-radius: .5rem;
+}
+
+.prep-section > h2 {
+    color: var(--Rose800);
+}
+
+.bold {
+    font-weight: var(--Weight600);
+    color: var(--Stone600);
+}
+
